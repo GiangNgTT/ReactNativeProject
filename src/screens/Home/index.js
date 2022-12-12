@@ -70,9 +70,9 @@ const Home = ({navigation}) => {
               }}
             />
             <View style={styles.box}>
-              <Text>{item?.name}</Text>
+              <Text style={{fontSize: 17, fontWeight: 'bold' }}>{item?.name}</Text>
               <Text>{item?.price}</Text>
-              <Text>{item?.location}</Text>
+              <Text style={{color: 'blue'}}>{item?.location}</Text>
             </View>
           </View>
         </TouchableOpacity>
