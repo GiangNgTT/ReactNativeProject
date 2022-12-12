@@ -76,20 +76,15 @@ const Home = ({navigation}) => {
             </View>
           </View>
         </TouchableOpacity>
-        <View style={styles.btn_group}>
-          <TouchableOpacity
-            onPress={() => Alert.alert('Do you want to booking this!')}>
-            <View style={styles.btn}>
-              <Text style={styles.btnText}>Submit</Text>
-            </View>
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() => Alert.alert('Do you want to booking this!')}>
-            <View style={styles.btn}>
-              <Text style={styles.btnText}>Submit</Text>
-            </View>
-          </TouchableOpacity>
-        </View>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('Hotel', {headerTitle: 'Detail Hotel'});
+          }}
+          style={styles.btn_group}>
+          <View style={styles.btn}>
+            <Text style={styles.btnText}>Booking</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     );
   };
@@ -193,14 +188,18 @@ const styles = StyleSheet.create({
   btn_group: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    height: 35,
     marginLeft: '52%',
     marginTop: '19%',
     position: 'absolute',
   },
   btn: {
-    height: 30,
-    borderBottomWidth: 1,
+    height: 20,
+    width: 70,
+    alignItems: 'center',
+    backgroundColor: '#EA2A13',
+  },
+  btnText: {
+    color: 'white'
   },
   container: {alignItems: 'center', justifyContent: 'center', flex: 1},
   emptyContainer: {

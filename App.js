@@ -8,6 +8,7 @@ import {store} from './src/redux/store';
 import Home from './src/screens/Home';
 import FirstPage from './src/screens/Home/FirstPage';
 import MyMapView from './src/screens/MapView';
+import Hotel from './src/screens/Home/Hotel';
 
 const Stack = createNativeStackNavigator();
 
@@ -47,6 +48,17 @@ function App() {
             name={'Home'}
             component={Home}
             options={{headerShown: false}}
+          />
+
+          <Stack.Screen
+            name={'Hotel'}
+            component={Hotel}
+            options={({route, navigation}) => {
+              return {
+                headerTitleAlign: 'center',
+                title: route?.params?.headerTitle,
+              };
+            }}
           />
 
           <Stack.Screen
