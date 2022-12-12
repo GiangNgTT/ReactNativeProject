@@ -1,0 +1,44 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\KimAnh\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.16.0
+2 info using node@v16.14.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\KimAnh\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:E:\ReactNativeBase\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\KimAnh\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\KimAnh\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 14ms
+19 timing npm:load:configload Completed in 14ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm run android
+23 verbose argv "run" "android" "-cache" "reset"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 6ms
+27 verbose logfile logs-max:10 dir:E:\ReactNativeBase\reset\_logs
+28 verbose logfile E:\ReactNativeBase\reset\_logs\2022-12-03T15_16_27_370Z-debug-0.log
+29 timing npm:load:logFile Completed in 12ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 38ms
+33 silly logfile done cleaning log files
+34 http fetch GET 200 https://registry.npmjs.org/npm 3621ms (cache miss)
+35 timing command:run Completed in 13626ms
+36 notice
+36 notice New [31mmajor[39m version of npm available! [31m8.16.0[39m -> [32m9.1.3[39m
+36 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.1.3[39m
+36 notice Run [32mnpm install -g npm@9.1.3[39m to update!
+36 notice
+37 verbose exit 1
+38 timing npm Completed in 13689ms
+39 verbose code 1
